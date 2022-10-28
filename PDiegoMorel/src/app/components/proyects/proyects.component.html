@@ -1,0 +1,38 @@
+<div class="container">
+    <div id="proyects" class="h2">
+        <h2><span><span class="linea">Proy</span>ects</span></h2>
+    </div>
+    <ul class="item-list"><i *ngFor="let d of datas"><a class="icone" routerLink="editproyect" routerLinkActive="active"><i class="fa-solid fa-square-pen"></i></a>
+    <div class="proyect shadow">
+        <div class="img">
+            <img [src]="d.img">
+        </div>
+        <div class="info">
+            <h3>{{d.title}}</h3>
+            <p>
+                {{d.descrip}}
+            </p>
+
+        </div>
+    </div></i></ul>
+    <!--<div class="proyect shadow">
+        <div class="img">
+            <img src="assets\ejemploproyect.jpg">
+        </div>
+        <div class="info">
+            <h3>Titulo del proyecto</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Curabitur in iaculis ex
+                . Etiam volutpat laoreet urna. Morbi ut
+                tortor nec nulla commodo malesuada sit
+                amet vel lacus. Fusce eget efficitur
+                libero. Morbi dapibus porta quam laoreet
+                placerat.
+            </p>
+
+        </div>
+
+    </div> -->
+  
+</div>  <div class="line"></div>

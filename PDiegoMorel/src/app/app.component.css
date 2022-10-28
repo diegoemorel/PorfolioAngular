@@ -1,0 +1,16 @@
+.navlogo{
+    background-color: transparent!important;
+    border-bottom: 2px solid #3b3b3b;
+    color:#c7c7c7!important
+}
+a{
+    color:#c7c7c7!important;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.save
+{
+ font-size: 1.5rem;
+ color:  #29f3c3!important;
+ margin-right: 1rem;
+}

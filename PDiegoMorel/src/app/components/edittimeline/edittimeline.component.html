@@ -1,0 +1,32 @@
+<form (ngSubmit)="onSubmit()" class="form">
+    <div class="form-group">
+        <label for="formGroupExampleInput">Puesto de trabajo(Título)</label>
+        <input type="text" class="form-control input" id="job" name="job" placeholder="Insete el puesto de trabajo" [ngModel]="">
+    </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput2">Descripción</label>
+        <input type="text" class="form-control input" id="descrip" name="descrip" placeholder="Inserte description"
+            [ngModel]="">
+    </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput2">Tiempo de experiancia</label>
+        <input type="text" class="form-control input" id="timexp" name="timexp" placeholder="Inserte"
+            [ngModel]="">
+    </div>
+
+    <div class="form-group">
+        <label for="formGroupExampleInput2">Año</label>
+        <input type="text" class="form-control input" id="age" name="age" placeholder="Insert description"
+            [ngModel]="">
+    </div>
+
+    <div>
+        <p class="block">
+            <button type="submit">
+                <!-- ESTO ES NUEVO-->
+                Submit
+            </button>
+        </p>
+    </div>
+
+</form>

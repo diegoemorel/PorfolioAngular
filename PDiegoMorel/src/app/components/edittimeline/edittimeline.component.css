@@ -1,0 +1,44 @@
+*{
+    font-size: 1.3rem;
+   }
+   label{
+       color:#c7c7c7;
+       margin: 0.5rem 0.5rem;
+   }
+   .input
+   {
+       background: none;
+       color: #29f3c3!important;
+   }
+   .input:focus{
+       border: 2px solid #29f3c3;
+   }
+   .form
+   {
+       margin-top:2rem;
+       margin-bottom: 2rem;
+       width: 80%;
+       margin-left: auto;
+       margin-right: auto;
+       box-shadow: 0 0 20px 0 rgba(255, 255, 255, 1);
+       border-radius: 10px;
+       background-color: transparent;
+       padding: 2rem 2rem;
+   }
+   .form button {
+       margin-top: 1rem;
+       padding: 1em;
+       text-transform: uppercase;
+       transition: 0.5s;
+       border: none;
+       border-radius: 10px;
+       font-size: 1rem;
+       background-color:#272727;
+       color:  #29f3c3;
+       border: 2px solid  #29f3c3;;
+   }
+   .form button:hover {
+       background-color: #29f3c3;
+      color: black;
+   }
+   

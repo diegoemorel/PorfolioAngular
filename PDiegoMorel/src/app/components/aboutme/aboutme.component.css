@@ -1,0 +1,185 @@
+.aboutme {
+
+    background-color: #272727;
+    max-height: 1400px;
+    color: #c7c7c7;
+    border-bottom: 2px solid #3b3b3b;
+    font-size: 1.2rem;
+
+}
+
+.imgabout {
+    text-align: center;
+    padding-bottom: .5em;
+
+}
+
+.imgabout img {
+    width: 80%;
+    height: auto;
+   
+
+
+}
+.icon
+{   
+   
+   
+    color:#c7c7c7;
+    top:3.595rem;
+    
+}
+
+.icon:hover{
+    color:#29f3c3;
+}
+.aboutme a 
+{
+    text-decoration: none;
+
+}
+
+.infoabout h2 {
+    color: White;
+    padding-bottom: 8.5px;
+    padding-left: 0;
+    width: 25%;
+    font-size: 2rem!important;
+}
+.infoabout h2 span
+{
+    font-size: 2rem;
+}
+.linea {
+    font-size: 1.5rem;
+    border-bottom: 4px solid #29f3c3 !important;
+    padding-bottom: 10px;
+}
+
+
+
+.botones p a {
+    padding: 1em;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.7s;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.here {
+    background-color: #29f3c3;
+    color:#000000!important;
+   
+}
+
+
+.here:hover {
+    background-color:black;
+    color:#29f3c3!important ;
+    
+
+}
+
+
+.dcv:hover {
+    border: 1px solid white;
+    background-color: rgba(20, 15, 8, 0.856);
+    color: aqua;
+    color: black;
+
+}
+
+.dcv {
+    border: 1px solid #29f3c3 ;
+    background-color: transparent;
+    color:#29f3c3 !important;
+    
+}
+
+
+.botones {
+    margin-top: 43px;
+}
+
+.margin-px {
+    margin-top: 50px;
+}
+
+
+@media (min-width: 821px) {
+
+    .aboutme {
+        text-align: left;
+        display: grid;
+        grid-template-columns: auto auto;
+
+
+    }
+
+    .infoabout h2 {
+        font-size: 25px;
+    }
+    .aboutme
+    {
+        padding-bottom: 4em;
+    }
+}
+
+@media (max-width:500px) {
+    .botones p a {
+        padding: 15px 30px;
+        
+
+    }
+    .botones p
+    {
+        margin-bottom: 3em;
+    }
+
+    .botones p {
+        margin-left: px;
+    }
+
+    .infoabout {
+        margin-left: px;
+
+    }
+
+    .infoabout h2,
+    .infoabout p {
+        text-align: left;
+
+    }
+}
+
+@media (max-width:426px) {
+    .aboutme {
+        margin-left: 10px !important;
+    }
+
+    .botones p span a {
+        font-size: 16.6px;
+    }
+
+    .botones p {
+        margin-left: 1px !important;
+    }
+
+}
+
+@media (max-width:541px) {
+    .botones {
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+
+    .aboutme {
+        margin-left: 50px;
+        font-size: 1.2rem;
+    }
+
+}

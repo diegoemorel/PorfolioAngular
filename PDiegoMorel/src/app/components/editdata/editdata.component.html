@@ -1,0 +1,19 @@
+<form (ngSubmit)="onSubmit()" class="form">
+  <div class="form-group">
+    <label for="formGroupExampleInput">Perfil photo</label>
+    <input type="text" class="form-control input" id="img" name="img" placeholder="Insert link" [ngModel]="upData.img">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Description</label>
+    <input type="text" class="form-control input" id="descrip" name="descrip" placeholder="Insert description" [ngModel]="upData.descrip">
+  </div>
+  <div>
+    <p class="block">
+      <button type="submit">
+        <!-- ESTO ES NUEVO-->
+        Submit
+      </button>
+    </p>
+  </div>
+
+</form>

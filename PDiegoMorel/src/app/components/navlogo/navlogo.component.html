@@ -1,0 +1,9 @@
+<nav class="navbar navbar-light bg-light navlogo">
+  <a class="navbar-brand" href="#">
+    <img src="/src/assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    Diego Morel
+  </a>
+  <!--<a class="save" routerLink="login" routerLinkActive="active" ><i class="fa-solid fa-user-gear"></i></a>-->
+  <button type="button" class="boton" (click)="login()" *ngIf="!isLogged"><i class="fa-solid fa-user"></i>></button>
+  <button type="button" class="boton"(click)="onLogOut()" *ngIf="isLogged"><i class="fa-solid fa-user-slash"></i></button>
+</nav>

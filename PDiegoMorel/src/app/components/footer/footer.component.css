@@ -1,0 +1,33 @@
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.my-4 {
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.justify-content-between {
+    justify-content: space-between!important;
+}
+.flex-wrap {
+    flex-wrap: wrap!important;
+}
+.border-top {
+    border-top: 2px solid #3b3b3b!important;
+}
+.d-flex {
+    display: flex!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    color:#29f3c3;
+}

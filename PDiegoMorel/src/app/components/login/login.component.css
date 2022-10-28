@@ -1,0 +1,40 @@
+.gradient-custom {
+
+    background-color: #272727;
+
+}
+
+.login {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 1) !important;
+    border-radius: 10px;
+    background-color: #272727;
+}
+
+.input {
+    background-color: transparent !important;
+    border-bottom: 1px solid #29f3c3 !important;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 1rem;
+    color:white;
+}
+
+.boton {
+    border: 2px solid #29f3c3;
+    background-color: transparent ;
+    border-radius: 10px;
+    color: #29f3c3;
+}
+
+.boton:hover {
+    background-color: #29f3c3;
+    color: black;
+}
+.boton:focus
+{
+    border: none;
+    border-bottom: 1px solid #087ca7!important;
+}
+.off:focus{
+    border: none;
+}
