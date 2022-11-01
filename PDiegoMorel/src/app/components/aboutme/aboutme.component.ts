@@ -12,7 +12,7 @@ export class AboutmeComponent implements OnInit {
     constructor(private datos :PorfolioService) { }
 
   ngOnInit(): void {
-       this.datos.getDataAbout().subscribe(data =>{
+      this.datos.getDataAbout().subscribe(data =>{
       console.log(data);
       this.datas=data;
       console.log(this.datas);

@@ -9,7 +9,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'http://localhost:8080/auth/'
+  authURL = 'https://bknproyectdm.herokuapp.com/auth/';
 
   constructor(private httpClient : HttpClient) { }
 

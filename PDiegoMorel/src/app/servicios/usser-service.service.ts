@@ -7,11 +7,11 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class UsserServiceService {
-  private baseURL = "http://localhost:8080/api";
+  private baseURL = 'https://bknproyectdm.herokuapp.com/auth';
   constructor(private httpCliente: HttpClient) {
 
   }
-  registrerContact(usser: Usser): Observable<Object> {
-    return this.httpCliente.post(`${this.baseURL}` + "/contact", usser);
+  registrerContact(usser: Usser): Observable<any> {
+    return this.httpCliente.post<any>(`${this.baseURL}` + '/contact', usser);
   }
 }

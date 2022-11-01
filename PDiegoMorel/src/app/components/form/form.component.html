@@ -13,32 +13,32 @@
                         <input type="text" 
                         id="name" 
                         name="name" 
-                        [(ngModel)]="usser.name">
+                        [(ngModel)]="usser.name" required>
                     </p>
                     <p>
                         <label><i class="fa-solid fa-at iconcolors"></i> Email Adress</label>
                         <input type="email"
                          name="email" 
                          id="email" 
-                         [(ngModel)]="usser.email">
+                         [(ngModel)]="usser.email" required>
                     </p>
                     <p>
                         <label><i class="fa-solid fa-phone iconcolors"></i> Phone Number</label>
                         <input type="tel" 
                         name="phone"
                         id="phone"
-                        [(ngModel)]="usser.phone">
+                        [(ngModel)]="usser.phone" required>
                     </p>
                     <p>
                         <label><i class="fa-solid fa-square-poll-horizontal iconcolors"></i> Affair</label>
                         <input type="text"
                          name="affair" 
                          id="afair"
-                        [(ngModel)]="usser.affair">
+                        [(ngModel)]="usser.affair" required>
                     </p>
                     <p class="block">
                         <label>Message <i class="fa-solid fa-message iconcolors"></i></label>
-                        <textarea rows="3" name="message" id="texthover" [(ngModel)]="usser.message"> </textarea>
+                        <textarea rows="3" name="message" id="texthover" [(ngModel)]="usser.message" required> </textarea>
                     </p>
                     <p class="block">
                         <button  type="submit" > <!-- ESTO ES NUEVO-->
@@ -51,9 +51,9 @@
             <div class="info">
                 <h2><span id="linea">Mor</span>e info <i class="fa-solid fa-circle-info iconcolors"></i></h2>
                 <ul>
-                    <li><i class="fa-solid fa-location-dot iconcolors"></i> Amecom perro</li>
+                    <li><i class="fa-solid fa-location-dot iconcolors"></i> San juan</li>
                     <li><i class="fa-solid fa-phone iconcolors"></i> 123-123-123</li>
-                    <li><i class="fa-solid fa-envelope iconcolors"></i> miriam@miriam.com</li>
+                    <li><i class="fa-solid fa-envelope iconcolors"></i> diego@diego.com</li>
                     <li><i class="fa-brands fa-instagram iconcolors"></i> Diegomorel12</li>
                 </ul>
                 <p>

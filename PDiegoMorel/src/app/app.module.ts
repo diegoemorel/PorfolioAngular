@@ -19,6 +19,8 @@ import { EditproyectComponent } from './components/editproyect/editproyect.compo
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { interceptorProvider } from './servicios/interceptor.service';
+import { UpdateSettingComponent } from './components/update-setting/update-setting.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { interceptorProvider } from './servicios/interceptor.service';
     EdittimelineComponent,
     EditproyectComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    UpdateSettingComponent,
+    SkillsComponent
     
   ],
   imports: [

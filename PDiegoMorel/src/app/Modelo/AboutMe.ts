@@ -1,6 +1,6 @@
 export class Aboutme
 {
-    id:1;
+    id:number=1;
     img:String;
     descrip:String;
 }

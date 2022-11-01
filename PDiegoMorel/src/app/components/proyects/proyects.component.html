@@ -2,19 +2,20 @@
     <div id="proyects" class="h2">
         <h2><span><span class="linea">Proy</span>ects</span></h2>
     </div>
-    <ul class="item-list"><i *ngFor="let d of datas"><a class="icone" routerLink="editproyect" routerLinkActive="active"><i class="fa-solid fa-square-pen"></i></a>
-    <div class="proyect shadow">
-        <div class="img">
-            <img [src]="d.img">
-        </div>
-        <div class="info">
-            <h3>{{d.title}}</h3>
-            <p>
-                {{d.descrip}}
-            </p>
+    <ul class="item-list"><i *ngFor="let d of datas">
+            <div class="proyect shadow">
+                <div class="img">
+                    <img [src]="d.img">
+                </div>
+                <div class="info">
+                    <h3>{{d.title}}</h3>
+                    <p>
+                        {{d.descrip}}
+                    </p>
 
-        </div>
-    </div></i></ul>
+                </div>
+            </div>
+        </i></ul>
     <!--<div class="proyect shadow">
         <div class="img">
             <img src="assets\ejemploproyect.jpg">
@@ -34,5 +35,6 @@
         </div>
 
     </div> -->
-  
-</div>  <div class="line"></div>
+
+</div>
+<div class="line"></div>

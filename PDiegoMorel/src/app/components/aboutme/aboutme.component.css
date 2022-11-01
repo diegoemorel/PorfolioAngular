@@ -1,3 +1,28 @@
+#aboutme
+{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.container-flex
+{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.infoflex
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.descripcion
+{
+    flex:40%;
+}
+
 .aboutme {
 
     background-color: #272727;
@@ -5,18 +30,22 @@
     color: #c7c7c7;
     border-bottom: 2px solid #3b3b3b;
     font-size: 1.2rem;
+    flex: 20%;
 
 }
 
 .imgabout {
     text-align: center;
     padding-bottom: .5em;
+    flex:80%;
+    margin-right: 2rem;
+    
 
 }
 
 .imgabout img {
-    width: 80%;
-    height: auto;
+    width: 100%;
+    height: 100%;
    
 
 
@@ -45,6 +74,7 @@
     padding-left: 0;
     width: 25%;
     font-size: 2rem!important;
+    margin-bottom: 2rem;
 }
 .infoabout h2 span
 {
@@ -57,7 +87,10 @@
 }
 
 
-
+.botones p
+{
+    margin-bottom: 2rem;
+}
 .botones p a {
     padding: 1em;
     border-radius: 5px;
@@ -65,8 +98,9 @@
     text-decoration: none;
     color: white;
     transition: 0.7s;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 0.5;
+    padding-right: 0.5;
+   
 
 }
 
@@ -102,7 +136,10 @@
 
 
 .botones {
-    margin-top: 43px;
+    margin-top:1rem;
+    display: flex;
+    justify-content: center; 
+
 }
 
 .margin-px {
@@ -110,17 +147,16 @@
 }
 
 
-@media (min-width: 821px) {
+@media (max-width: 900px) {
 
-    .aboutme {
-        text-align: left;
-        display: grid;
-        grid-template-columns: auto auto;
+    .container-flex {
+       flex-direction: column;
 
 
     }
 
-    .infoabout h2 {
+
+  .infoabout h2 {
         font-size: 25px;
     }
     .aboutme

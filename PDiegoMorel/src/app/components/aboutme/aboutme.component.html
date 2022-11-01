@@ -1,37 +1,28 @@
+<div id="about" class="aboutme margin-px" *ngFor="let d of datas">
+    <div class="container-flex">
+        <div class="imgabout">
 
-<div id="#aboutme" class="aboutme margin-px"><!--*ngFor="let d of datas"--> 
-    
-    <div class="imgabout">
-        <img src="assets\Diego.png">
-        <!--<img [src]="d.img">-->
-    </div>
-    <div class="infoabout">
-        <h2> <span id=" linea" class="linea">Abo</span>utMe</h2>
-        <!-- {{d.descrip}}<div><button click><a class="icon"><a  routerLink="editaboutme" routerLinkActive="active"><i class="fa-solid fa-square-pen"></i></a></a></button> --->
-    </div>
-    <p class="sizeL">
+            <!-- <img src="assets\Diego.png">-->
+            <img [src]="d.img">
+        </div>
+        <div class="infoabout infloflex">
+            <h2> <span id=" linea" class="linea">Abo</span>utMe</h2>
+            <!-- <div><button click><a class="icon"><a  routerLink="editaboutme" routerLinkActive="active"><i class="fa-solid fa-square-pen"></i></a></a></button> --->
 
-        Soy un muchacho de barrio que no tiene horario cuando hay que cantar
-            Soy uno mas de la esquina de esa barra querida que no voy a olvidar
-            Soy un muchacho de barrio y aunque pasen los años nunca me olvidare
-            Que mi escuela fue la calle que en la vida pierda o gane
-            Yo te lo juro por esta...
-            Que yo nunca cambiaré, no cambiaré
-            No cambiaré,
-            Yo te lo juro nunca nunca cambiaré
-            No cambiaré no no no cambiaré no no
-            Yo te lo juro nunca nunca cambiaré
-            No cambiaré
-    </p>
+            <div class="descripcion">
+                <p class="sizeL">{{d.descrip}}
+                </p>
+            </div>
+        </div>
+
+    </div>
 
     <div class="botones">
         <p>
-            <span class="greycolor"><a class="here" href="#">Here me</a></span>
-            <span id="dcv"><a class="dcv" href="#"> Download CV</a></span>
+            <span class="greycolor"><a class="here" href="#contact">Contacts</a></span>
+            <span id="dcv"><a class="dcv" href="https://drive.google.com/file/d/1W111Urv6uBGxnh48Ou9NyacRpMbLBPAz/view?usp=share_link" target="_blank" rel="noopener noreferrer"> Download CV</a></span>
         </p>
 
     </div>
 
 </div>
-
-

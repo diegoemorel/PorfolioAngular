@@ -1,23 +1,75 @@
 <form (ngSubmit)="onSubmit()" class="form">
     <div class="form-group">
+        <h2><span><span class="linea">Expe</span>rience -update</span></h2>
+        <label for="formGroupExampleInput">Seccion</label>
+        <input type="text" class="form-control input" id="id" name="id" placeholder="Opcion"
+            [ngModel]="actualizar.id_exp">
+    </div>
+    <div class="form-group">
         <label for="formGroupExampleInput">Puesto de trabajo(Título)</label>
-        <input type="text" class="form-control input" id="job" name="job" placeholder="Insete el puesto de trabajo" [ngModel]="">
+        <input type="text" class="form-control input" id="job" name="job" placeholder="Insete el puesto de trabajo"
+            [ngModel]="actualizar.title">
     </div>
     <div class="form-group">
         <label for="formGroupExampleInput2">Descripción</label>
         <input type="text" class="form-control input" id="descrip" name="descrip" placeholder="Inserte description"
-            [ngModel]="">
+            [ngModel]="actualizar.descrip">
     </div>
     <div class="form-group">
         <label for="formGroupExampleInput2">Tiempo de experiancia</label>
         <input type="text" class="form-control input" id="timexp" name="timexp" placeholder="Inserte"
-            [ngModel]="">
+            [ngModel]="actualizar.expYear">
     </div>
 
     <div class="form-group">
         <label for="formGroupExampleInput2">Año</label>
         <input type="text" class="form-control input" id="age" name="age" placeholder="Insert description"
-            [ngModel]="">
+            [ngModel]="actualizar.years">
+    </div>
+
+    <div>
+        <p class="block">
+            <button type="submit">
+                <!-- ESTO ES NUEVO-->
+                Submit
+            </button>
+        </p>
+    </div>
+
+</form>
+<form (ngSubmit)="onDelet()" class="form">
+    <div class="form-group">
+        <h2><span><span class="linea">Expe</span>rience -delete</span></h2>
+        <label for="formGroupExampleInput">Seccion</label>
+        <input type="text" class="form-control input" id="id" name="id" placeholder="Opcion" [ngModel]="delete.id_exp">
+    </div>
+
+</form>
+<form (ngSubmit)="onADD()" class="form">
+    <div class="form-group">
+        <h2><span><span class="linea">Expe</span>rience -add</span></h2>
+
+    </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput">Puesto de trabajo(Título)</label>
+        <input type="text" class="form-control input" id="job" name="job" placeholder="Insete el puesto de trabajo"
+            [ngModel]="actualizar.title">
+    </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput2">Descripción</label>
+        <input type="text" class="form-control input" id="descrip" name="descrip" placeholder="Inserte description"
+            [ngModel]="actualizar.descrip">
+    </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput2">Tiempo de experiancia</label>
+        <input type="text" class="form-control input" id="timexp" name="timexp" placeholder="Inserte"
+            [ngModel]="actualizar.expYear">
+    </div>
+
+    <div class="form-group">
+        <label for="formGroupExampleInput2">Año</label>
+        <input type="text" class="form-control input" id="age" name="age" placeholder="Insert description"
+            [ngModel]="actualizar.years">
     </div>
 
     <div>

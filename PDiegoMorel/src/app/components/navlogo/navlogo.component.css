@@ -2,6 +2,7 @@
     background-color: transparent!important;
     border-bottom: 2px solid #3b3b3b;
     color:#c7c7c7!important
+    
 }
 a{
     color:#c7c7c7!important;
@@ -24,4 +25,10 @@ a{
 {
     color:  #29f3c3;
     font-size: 2rem;
+}
+.icono
+{
+    max-width: 5rem;
+    max-height: 5rem;
+    border-radius: 100%;
 }

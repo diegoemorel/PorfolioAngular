@@ -1,14 +1,14 @@
 <div id="timeline" class="h2">
     <h2><span><span class="linea">Expe</span>rience</span></h2>
 </div>
-    
 
-<div class="container"><a class="icone" routerLink="edittimeline" routerLinkActive="active"><i class="fa-solid fa-square-pen"></i></a>
-    <div class="main-timeline" > 
-      
+
+<div class="container">
+    <div class="main-timeline">
+
         <!-- start experience section-->
         <ul class="item-list" *ngFor="let d of datas">
-            <li >
+            <li>
                 <div class="timeline">
                     <div class="icon"></div>
                     <div class="date-content">
@@ -20,7 +20,7 @@
                         </div>
                     </div>
                     <div class="timeline-content">
-                        <h5 class="title">{{d.title}} &amp; Design</h5>
+                        <h5 class="title">{{d.title}}</h5>
                         <p class="description">
                             {{d.descrip}}
                         </p>

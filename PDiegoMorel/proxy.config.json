@@ -1,0 +1,7 @@
+{
+    "/api/*":{
+      "tarjet": "https://bknproyectdm.herokuapp.com",
+      "secure": false,
+      "logLevel": "debug"
+    }
+  }
